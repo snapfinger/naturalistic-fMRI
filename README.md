@@ -1,6 +1,6 @@
 # SANS 2022 Naturalistic fMRI Data Analysis Challenge
 
-This is the repository for [SANS 2022 Naturalistic fMRI Data Analysis Challenge](https://compsan.org/sans_data_competition/content/intro.html). We used our lab's **Group BrainSync + NASCAR** framework to temporally synchronize fMRI recordings among subjects and extract shared brain networks without physiologically implausible constraint (e.g. orthogonality by PCA, spatial/temporal independence by ICA) under naturalistic stimulus paradigm. The time-series corresponding to the visual network from our framework was much more highly correlated with HRF convolved brightness ground truth sequence extracted from the stimulus (TV episode) compared to spatial ICA (0.27 vs 0.12).
+This is the repository for [SANS 2022 Naturalistic fMRI Data Analysis Challenge](https://compsan.org/sans_data_competition/content/intro.html). We used [our lab](https://neuroimage.usc.edu/neuro/home)'s **Group BrainSync + NASCAR** framework to temporally synchronize fMRI recordings among subjects and extract shared brain networks without physiologically implausible constraint (e.g. orthogonality by PCA, spatial/temporal independence by ICA) under naturalistic stimulus paradigm. The time-series corresponding to the visual network from our framework was much more highly correlated with HRF convolved brightness ground truth sequence extracted from the stimulus (TV episode) compared to spatial ICA (0.27 vs 0.12).
 
 ### (Group) BrainSync: Temporal synchronization of fMRI among subjects
 - **BrainSync**
